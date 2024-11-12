@@ -1,0 +1,91 @@
+body,
+html {
+  margin: 0;
+  display: flex;
+  min-height: 400vh;
+  width: 100%;
+  font-family: monospace;
+  background-image: url("assests/Scrapbooking 2025 Vision Board Desktop Wallpaper.png");
+  background-size: cover;
+  background-position: center;
+}
+
+footer {
+  color: white;
+  position: fixed;
+  bottom: 0;
+  padding-left: 28%;
+  background-color: black;
+}
+
+.header p {
+  color: white;
+  font-size: 24px;
+  margin: 10px;
+  width: 150px;
+}
+.hero-img {
+  margin: 20% 90%;
+  margin-bottom: 23%;
+}
+
+img {
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.hero-card {
+  background-color: rgba(128, 128, 128, 0.493);
+  height: 720px;
+  width: 530px;
+  margin-left: 50%;
+  margin-top: -30%;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.hero-card-p,
+.hero-card-pi {
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  top: 50%;
+  writing-mode: horizontal-tb;
+}
+
+.body {
+  padding-top: 80%;
+  margin-left: -53%;
+}
+
+.intro {
+  font-size: 74px;
+  color: white;
+  text-align: center;
+}
+
+.intro:hover {
+  color: aqua;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.body-card {
+  background-color: rgba(128, 128, 128, 0.493);
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 20px;
+  flex: 1 1 calc(25% - 40px);
+}
+
+.body-card-p {
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+  writing-mode: horizontal-tb;
+}
